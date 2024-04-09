@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Version de JavaScript cible
+    "module": "commonJS", // Système de modules
+    "strict": true, // Activer les contrôles stricts (strict rendra la rigueur de TypeScript plus forte)
+    "esModuleInterop": true, // Activer l'interopérabilité des modules ES, ce qui permet d'importer des modules CommonJS
+    "skipLibCheck": true, // Ignorer la vérification des fichiers de définition de type
+    "forceConsistentCasingInFileNames": true, // Forcer la cohérence de la casse des noms de fichiers
+    "outDir": "./dist" // Répertoire de sortie pour les fichiers JavaScript compilés
+  },
+  "include": ["src/**/*"] // Fichiers à inclure dans la compilation
+}
